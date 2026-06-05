@@ -7,8 +7,7 @@ class Solution:
         
         for i in range(len(strs[0])):
             for s in strs:
-                # Check if 'i' is out of bounds for the current string 's'
-                # OR if the characters don't match
+               # out of bound case
                 if i >= len(s) or s[i] != strs[0][i]:
                     return res
             
