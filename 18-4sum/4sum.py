@@ -11,7 +11,7 @@ class Solution:
                         continue
                     
                     quad.append(nums[i])
-                    kSum(k - 1, i + 1, target - nums[i]) 
+                    kSum(k - 1, i + 1, target - nums[i]) #recursion
                     quad.pop()
                 return
 
